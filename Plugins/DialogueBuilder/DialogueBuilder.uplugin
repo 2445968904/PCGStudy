@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.10",
+	"FriendlyName": "DialogueBuilder",
+	"Description": "Create your Dialogues with Blueprint Editor",
+	"Category": "Dialogue",
+	"CreatedBy": "Greg Shynkar",
+	"CreatedByURL": "https://www.linkedin.com/in/greg-shynkar-2839a6b2/",
+	"DocsURL": "https://drive.google.com/file/d/1-MilDkfzNLSQQ0jUryTk-m8sZUqieyAp/view?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/0757846060534a32aa333e37f9e2706d",
+	"SupportURL": "https://discord.gg/3ruxmWhvmB",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DialogueBuilderEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		},
+		{
+			"Name": "DialogueBuilder",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Android",
+				"Linux",
+				"Mac",
+				"IOS"
+			]
+		}
+	]
+}

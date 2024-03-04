@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 144,
+	"VersionName": "2.31.1",
+	"FriendlyName": "Dungeon Architect",
+	"Description": "Build procedural dungeons",
+	"Category": "Procedural",
+	"CreatedBy": "Code Respawn",
+	"CreatedByURL": "https://dungeonarchitect.dev",
+	"DocsURL": "https://docs.dungeonarchitect.dev/ue4",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/1a4ad2a06f174a26af8a29728241ce42",
+	"SupportURL": "",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DungeonArchitectRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "DungeonArchitectEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		}
+	]
+}
