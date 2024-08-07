@@ -63,10 +63,13 @@ public:
 
 	virtual TSharedRef<SWidget> PopulateSlot(TSharedRef<SWidget> PropertyEditorWidget) override
 	{
+		
+		UE_LOG(LogTemp,Warning,TEXT("%s"),*PropertyEditorWidget->StaticWidgetClass().GetWidgetType().ToString());
 		return SNew(SVerticalBox)
 		+ SVerticalBox::Slot()
 		.FillHeight(1)
 		[
+			//SNew(STextBlock)
 			PropertyEditorWidget
 		];
 	}
